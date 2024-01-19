@@ -1,0 +1,123 @@
+%\chapter{\normalsize{BACKGROUND OF SATELLITE REMOTE SENSING}}
+\chapter{\normalsize{BASIC PRINCIPLES OF SATELLITE REMOTE SENSING}}
+\section{Definition}
+\paragraph{}
+\textbf{Remote sensing} is the science (and to some extent, art) of acquiring information about the Earth's surface without actually being in contact with it. This is done by sensing and recording reflected or emitted energy and processing, analysing, and applying that information.
+\paragraph{}
+In much of remote sensing, the process involves an interaction between incident radiation 
+and the targets of interest. This is exemplified by the use of imaging systems where the 
+following seven steps are involved. However that remote sensing also involves the 
+sensing of emitted energy and the use of non-imaging sensors. 
+\end{description}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.8]{image0.png} %\cite{umhe}
+\end{center}
+\caption{Remote sensing process}
+\label{Remote sensing process}%\cite{ABIA}
+\end{figure}
+\begin{description}
+\item[Step 1-Energy Source or Illumination (A)] : the first requirement for remote sensing is to have  an energy source which illuminates or  provides electromagnetic energy to the target of interest.
+\item[Step 2-bandRadiation and the Atmosphere (B) band]: as the energy travels from its source to the target, it will come in contact with and interact with the atmosphere it passes through. This interaction may take place a second time as  the energy travels from the target to the sensor. 
+\item[Step 3-Interaction with the Target (C)] : once the energy makes its way to the target through the atmosphere, it interacts with the target depending on the properties of both the target and the radiation.
+\item[Step 4-Recording of Energy by the Sensor (D)] : after the energy has been scattered by, or emitted from the target, we require a sensor (remote - not in contact with the target) to collect and record the electromagnetic radiation. 
+\item[Step 5-Transmission, Reception, and Processing (E)]: the energy recorded by the sensor has to be transmitted, often in electronic form, to a receiving and processing station where the data are processed into an image (hardcopy and/or digital).
+\item[Step 6-Interpretation and Analysis (F)] the processed image is interpreted, visually and/or  digitally or electronically, to extract information about the target which was illuminated. 
+\item[Step 7-Application (G) ] the final element of the remote sensing process is achieved when we  apply the information we have been able to extract from the imagery about the target in order  to better understand it, reveal some new information, or assist in solving a particular problem. 
+
+%\section{Présentation du lieu du stage}
+\section{Electromagnetic Spectrum}
+\paragraph{}
+Solar radiation can be divided into different wavelengths call EM spectrum:
+\begin{enumerate}
+\item Ultra violet (UV) [3-400 nm] 
+\item Visible (Vis) [0.4-0.7 µm]
+\item Infrared Red (IR) [0.7-100 µm]
+\begin{enumerate}
+\item Reflected IR [0.7-3 µm]
+\begin{itemize} 
+\item Near IR [0.7-1.5 µm]
+\item Shortwave IR [1.5-3 µm]
+\end{itemize}
+\item Emitted IR or TIR [3-100 µm] 
+\begin{itemize} 
+\item Midwave IR [3-8 µm]
+\item Longwave IR [8-15 µm]
+\item Far IR [15-100 µm]
+\end{itemize}
+\end{enumerate} 
+\item Microwave (MW) [1 mm – 1m]
+\begin{description}
+\item[P band]: 0.3 - 1 GHz (30 - 100 cm)
+\item[L band]: 1 - 2 GHz (15 - 30 cm)
+\item[S band]: 2 - 4 GHz (7.5 - 15 cm)
+\item[C band]: 4 - 8 GHz (3.8 - 7.5 cm)
+\item[X band]: 8 - 12.5 GHz (2.4 - 3.8 cm)
+\item[Ku band]: 12.5 - 18 GHz (1.7 - 2.4 cm)
+\item[K band]: 18 - 26.5 GHz (1.1 - 1.7 cm)
+\item[Ka band]: 26.5 - 40 GHz (0.75 - 1.1 cm)
+\end{description}
+\end{enumerate}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.8]{image1.png} %\cite{umhe}
+\end{center}
+\caption{Electromagnetic spectrum}
+\label{Electromagnetic spectrum}%\cite{ABIA}
+\end{figure}
+Most Multispectral satellite can acquire data in visible and infrared region (including the thermal infrared region).  Now days there is an increasing demand for data in microwaves region, because the microwave energy can penetrate through the cloud.
+\section{Source of radiation}
+\paragraph{}
+We have two majors source of radiation: Sun and Earth.
+\begin{description}
+\item[Sun] is the mayor source of radiation with highest energy in visible, near infrared and short-wave infrared region as shown on picture above.
+\item[Earth surface] can also emit energy usually in thermal Infrared and microwaves region.
+\end{description}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.8]{images2.png} %\cite{umhe}
+\end{center}
+\caption{Source of radiation}
+\label{Source of radiation}%\cite{ABIA}
+\end{figure}
+\section{Interaction in the atmosphere}
+\paragraph{}
+Before radiation used for remote sensing reaches the Earth's surface it has to travel through some distance of the Earth's atmosphere. Different processes happening due to the presence of particles and gases in the atmosphere. Some get \textbf{scattered}, some get \textbf{absorbed}, some managed to transmit through the atmosphere and get \textbf{absorbed}  by the earth, and some get \textbf{reflected} . This reflected energy is capture by the sensor on board of satellite. They are some energies emitted from the earth which are directly proportional to the heat of that particular object. This emitted energy can also be recorded by sensor on board of satellite if that sensor has capabilities to record energy in thermal infrared region. A sensor on board a satellite can record \textbf{remitted}  or \textbf{reflected} radiation depending on the capabilities of the sensors.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.8]{image3.png} %\cite{umhe}
+\end{center}
+\caption{radiance at the sensor}
+\label{radiance at the sensor}%\cite{ABIA}
+\end{figure}
+\section{How does it work ?}
+As we said above, the energy is either emitted or reflected. And this emission or reflection on energy depend on he targets of interest e.g. cloud, trees, water, etc. They all have different level of reflectance, and this radiation of energy from different targets type will be recorded by the sensor installed in the satellite. Many time what is record by satellite is directly proportional to top of the atmosphere (TOA) "level at which the effect of absorption and scattering is not relevant". The energy recorded at sensor is proportional to what could be at the top of atmosphere e.g. temperature and humidity recorded is equal to brightness temperature (TOA Temperature), and we have to apply some correction convert brightness temperature to surface temperature. The same go to reflectance, we have to convert TOA radiance energy to surface reflectance energy. This process is call atmospheric correction. This how satellite records energy and how it correspond to different targets of interest.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.8]{image4.png} %\cite{umhe}
+\end{center}
+\caption{Sattelite remote seinsing}
+\label{Sattelite remote seinsing}%\cite{ABIA}
+\end{figure}
+\section{Category of satellite}
+There are different category of satellite based on:
+\begin{description}
+\item[Source of energy]: passive and active Sensors.
+\item[Orbit]: polar, geo-stationary and sun-synchronous.
+\item[Resolutions]: spatial, spectral, radiometric and temporal.
+\item[Objectives]: communication, weather, navigation, earth observation, etc.
+\end{description}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

@@ -1,0 +1,81 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: mi_is_report_v4.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Database file #1: biblio.bib
+Warning--entry type for "aa11" isn't style-file defined
+--line 104 of file biblio.bib
+Warning--entry type for "aa12" isn't style-file defined
+--line 113 of file biblio.bib
+Warning--entry type for "aa13" isn't style-file defined
+--line 124 of file biblio.bib
+Warning--entry type for "aa14" isn't style-file defined
+--line 134 of file biblio.bib
+Warning--entry type for "aa15" isn't style-file defined
+--line 145 of file biblio.bib
+Too many commas in name 1 of "TIMOTHY J. SCHMIT, MATHEW M. GUNSHOR , W. PAUL MENZEL , JAMES J. GURKA , JUN LI, A. SCOT T BACHMEIER" for entry aa4
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "TIMOTHY J. SCHMIT, MATHEW M. GUNSHOR , W. PAUL MENZEL , JAMES J. GURKA , JUN LI, A. SCOT T BACHMEIER" for entry aa4
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "TIMOTHY J. SCHMIT, MATHEW M. GUNSHOR , W. PAUL MENZEL , JAMES J. GURKA , JUN LI, A. SCOT T BACHMEIER" for entry aa4
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Xiangchen Meng , Jie Cheng, Shaohua Zhao , Sihan Liu , Yunjun Yao" for entry aa9
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Xiangchen Meng , Jie Cheng, Shaohua Zhao , Sihan Liu , Yunjun Yao" for entry aa9
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in aa11
+Warning--empty year in aa1
+Too many commas in name 1 of "TIMOTHY J. SCHMIT, MATHEW M. GUNSHOR , W. PAUL MENZEL , JAMES J. GURKA , JUN LI, A. SCOT T BACHMEIER" for entry aa4
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "TIMOTHY J. SCHMIT, MATHEW M. GUNSHOR , W. PAUL MENZEL , JAMES J. GURKA , JUN LI, A. SCOT T BACHMEIER" for entry aa4
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "TIMOTHY J. SCHMIT, MATHEW M. GUNSHOR , W. PAUL MENZEL , JAMES J. GURKA , JUN LI, A. SCOT T BACHMEIER" for entry aa4
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Xiangchen Meng , Jie Cheng, Shaohua Zhao , Sihan Liu , Yunjun Yao" for entry aa9
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Xiangchen Meng , Jie Cheng, Shaohua Zhao , Sihan Liu , Yunjun Yao" for entry aa9
+while executing---line 1090 of file plain.bst
+You've used 14 entries,
+            2118 wiz_defined-function locations,
+            547 strings with 5486 characters,
+and the built_in function-call counts, 2886 in all, are:
+= -- 256
+> -- 98
+< -- 0
++ -- 42
+- -- 28
+* -- 113
+:= -- 491
+add.period$ -- 38
+call.type$ -- 14
+change.case$ -- 53
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 122
+empty$ -- 295
+format.name$ -- 28
+if$ -- 612
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 9
+newline$ -- 69
+num.names$ -- 26
+pop$ -- 121
+preamble$ -- 1
+purify$ -- 42
+quote$ -- 0
+skip$ -- 92
+stack$ -- 0
+substring$ -- 70
+swap$ -- 14
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 50
+warning$ -- 2
+while$ -- 26
+width$ -- 16
+write$ -- 128
+(There were 10 error messages)

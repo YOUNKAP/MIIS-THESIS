@@ -1,0 +1,40 @@
+https://mapscaping.com/podcast/the-landsat-program/
+
+https://www.usgs.gov/landsat-missions/landsat-collection-1?qt-science_support_page_related_con=1#qt-science_support_page_related_con
+
+ALASKA NORT WAY
+
+
+A/How to get data back to the earth and processing side:
+
+Processing landsat 8 data:
+They are two parts of pressing we can think to:
+1-Geométric correction
+Align all the pixels that are collected by different part of insruments
+instruments have differents focal points,
+ and they have to be align so that they match geometrically.
+ 
+2-Radiometric calibration
+The image have to be orthorectified down to the surface of the earth within  accuracy
+Callibrate the pixel to the physical units which is radiance of TOA refectance
+TOA Temperature in case of termo band
+All these process occurs at USGEOS facilities
+
+B/HOW TO GET AND ANALYSE LANDSAT 8 DATA
+Landsat data are available for any body for free :
+You can go on usgeo website  earth explorer search on space and time, data products and download:
+In  term of what data is used for: Landsat data anable any kind of analysis
+
+Agriculture: crop type, crop health, 
+Forestry: natural disturbance, forest health, hurricane, 
+climate: effects of climate change, termo infrared band (look at water consomption ETA) on crop
+
+Landsat 8 is a multipurpose satellite 
+
+Compute precipitation at Maroua/Garoua and compare with those available from ground station
+
+
+
+ 
+
+

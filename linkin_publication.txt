@@ -1,0 +1,9 @@
+Asalam-o-Alikum eveyrone !
+I am pleased to announce that I had completed my one year certification on Artificial Intelligence (AI) offered by Presidential Initiative for Artificial Intelligence PIAIC .
+During this course I learned about AI , python , famous libraries of python like numpy ,pandas etc and then we learn about DeepLearning , Advance DeepLearning , Sagemaker , Amazon s3
+and some other side technologies like GitHub, Linux essentials, and Docker.
+I am thankful to all teachers for there guidance and support during the journey specially to Sir Nasir Hussain & Sir Muhammad Ali who has helped me a lot .
+Certification Link : https://lnkd.in/d6qFSHFs
+
+
+#python #deeplearning #artificialintelligence #ai #pandas #github #amazon #docker #linux #sagemaker #numpy #git #github #certificate #certified #copied #keeplearning #keepsharing #keepgrowing

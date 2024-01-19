@@ -1,0 +1,78 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\normalsize {\textbf {CERTIFICATE}}}{ii}{chapter*.2}%
+\contentsline {paragraph}{}{ii}{section*.3}%
+\contentsline {paragraph}{}{ii}{section*.4}%
+\contentsline {section}{\normalsize {\textbf {ACKNOWLEDGEMENT}}}{iii}{chapter*.5}%
+\contentsline {paragraph}{}{iii}{section*.6}%
+\contentsline {paragraph}{}{iii}{section*.7}%
+\babel@toc {english}{}\relax 
+\contentsline {section}{\normalsize {\textbf {INTRODUCTION}}}{1}{chapter*.9}%
+\contentsline {paragraph}{}{1}{section*.10}%
+\contentsline {chapter}{\numberline {1}\normalsize {BASIC PRINCIPLES OF SATELLITE REMOTE SENSING}}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Definition}{2}{section.1.1}%
+\contentsline {paragraph}{}{2}{section*.11}%
+\contentsline {paragraph}{}{2}{section*.12}%
+\contentsline {section}{\numberline {1.2}Electromagnetic Spectrum}{3}{section.1.2}%
+\contentsline {paragraph}{}{3}{section*.14}%
+\contentsline {paragraph}{}{4}{section*.16}%
+\contentsline {section}{\numberline {1.3}Source of radiation}{4}{section.1.3}%
+\contentsline {paragraph}{}{4}{section*.17}%
+\contentsline {section}{\numberline {1.4}Interaction in the atmosphere}{4}{section.1.4}%
+\contentsline {paragraph}{}{4}{section*.19}%
+\contentsline {chapter}{\numberline {2}\normalsize {CASE STUDY: GOES-R Series}}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}GOES project current status}{5}{section.2.1}%
+\contentsline {paragraph}{}{5}{section*.20}%
+\contentsline {section}{\numberline {2.2}GOES-R Series Instruments}{6}{section.2.2}%
+\contentsline {paragraph}{}{6}{section*.21}%
+\contentsline {section}{\numberline {2.3}Advanced Baseline Imager (ABI)}{7}{section.2.3}%
+\contentsline {section}{\numberline {2.4}ABI Data Collection Approach and Operations}{8}{section.2.4}%
+\contentsline {paragraph}{}{8}{section*.23}%
+\contentsline {section}{\numberline {2.5}ABI modes of operation}{8}{section.2.5}%
+\contentsline {paragraph}{}{8}{section*.25}%
+\contentsline {section}{\numberline {2.6}GOES-R Data Products}{9}{section.2.6}%
+\contentsline {paragraph}{}{9}{section*.26}%
+\contentsline {section}{\numberline {2.7}ABI meteorological product}{9}{section.2.7}%
+\contentsline {paragraph}{}{9}{section*.27}%
+\contentsline {chapter}{\numberline {3}\normalsize { GOES-R SERIES DATA ANALYSIS}}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Acces GOES-R series data files}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Access data files from NOAA CLASS}{11}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Access data files from Amazon, Microsoft, OCC}{11}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Access data files from Google Cloud}{11}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Use Python to retrieve data from AWS}{12}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}GOES-R Series metadata discovery}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1} GOES-R Series data format}{13}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Read GOES-R Series data metadata}{13}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Visualise a single band ABI Channel image}{14}{section.3.3}%
+\contentsline {chapter}{\numberline {4}\normalsize {SATELLITE DATA ANALYSIS}}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Objectives}{17}{section.4.1}%
+\contentsline {paragraph}{}{17}{section*.31}%
+\contentsline {section}{\numberline {4.2}Aviation meteorological stations in cameroon}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.3}GLDAS data}{18}{section.4.3}%
+\contentsline {paragraph}{}{18}{section*.34}%
+\contentsline {section}{\numberline {4.4}Specific requirements}{18}{section.4.4}%
+\contentsline {paragraph}{}{18}{section*.35}%
+\contentsline {paragraph}{}{19}{section*.37}%
+\contentsline {section}{\numberline {4.5}Download GLDAS data}{19}{section.4.5}%
+\contentsline {paragraph}{}{19}{section*.38}%
+\contentsline {section}{\numberline {4.6}Processing single data file}{19}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1} Data file structure}{19}{subsection.4.6.1}%
+\contentsline {paragraph}{}{19}{section*.39}%
+\contentsline {subsection}{\numberline {4.6.2} Metadata discovery}{20}{subsection.4.6.2}%
+\contentsline {paragraph}{}{20}{section*.40}%
+\contentsline {paragraph}{}{20}{section*.41}%
+\contentsline {subsection}{\numberline {4.6.3}Single data extraction}{20}{subsection.4.6.3}%
+\contentsline {paragraph}{}{20}{section*.42}%
+\contentsline {subsection}{\numberline {4.6.4} Data visualisation in QGIS}{21}{subsection.4.6.4}%
+\contentsline {paragraph}{}{21}{section*.43}%
+\contentsline {paragraph}{}{22}{section*.45}%
+\contentsline {subsection}{\numberline {4.6.5} Unit data conversion}{22}{subsection.4.6.5}%
+\contentsline {paragraph}{}{22}{section*.47}%
+\contentsline {paragraph}{}{22}{section*.48}%
+\contentsline {paragraph}{}{23}{section*.49}%
+\contentsline {paragraph}{}{25}{section*.50}%
+\contentsline {chapter}{\numberline {5}\normalsize {RESULTS}}{26}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Temperature chart}{26}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Relative Humidity Chart}{28}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Surface Pressure Chart}{30}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Wind Speed Chart}{32}{section.5.4}%
+\contentsline {section}{\normalsize {\textbf {CONCLUSION}}}{36}{chapter*.61}%

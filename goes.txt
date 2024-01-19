@@ -1,0 +1,41 @@
+https://www.goes-r.gov/mission/ABI-bands-quick-info.html
+
+https://www.goes-r.gov/spacesegment/ABI-tech-summary.html
+
+https://www.goes-r.gov/products/overview.html#ABI
+
+https://www.goes.noaa.gov/
+
+https://www.unidata.ucar.edu/software/tds/current/TDS.html
+
+https://thredds.ucar.edu/thredds/catalog.html
+
+https://hydro1.gesdisc.eosdis.nasa.gov/data/GLDAS/GLDAS_NOAH025_3H.2.1/
+
+https://www.ssec.wisc.edu/software/geo2grid/readers/abi_l1b.html
+
+## bon geos band description
+https://www.goes-r.gov/spacesegment/ABI-tech-summary.html
+
+#00 Download GEOS data
+https://github.com/spestana/goes-py
+
+#0-GEOS DATA
+https://thredds.ucar.edu/thredds/catalog.html
+
+#1-DOWNLOAD GOER DATA
+https://www.goes-r.gov/spacesegment/abi.html
+
+#2-ABI BAND INFOS
+https://www.goes-r.gov/mission/ABI-bands-quick-info.html
+
+#3-NOAA WEBSITE
+https://www.avl.class.noaa.gov/release/system_help/subs/index.htm
+
+#4-GEOR PRODUCT
+https://www.goes-r.gov/products/overview.html#ABI
+https://www.goes-r.gov/products/overview.html
+We must also provide a link for product description
+
+
+4UQVtxB7sjqKJix

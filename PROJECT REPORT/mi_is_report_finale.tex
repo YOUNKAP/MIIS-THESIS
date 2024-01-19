@@ -1,0 +1,234 @@
+\documentclass[a4papert,12pt]{report}% autres choix : book, report
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{apacite}
+\parindent=1cm
+%\parindent=15pt
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage[francais,english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage{eurosym}  
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{pythontex} 
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\makeatletter 
+\lstset{style=mystyle}
+\hypersetup{
+    colorlinks=true,
+    %linkcolor=blue,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\usepackage{textcomp}
+\usepackage{layout}
+\renewcommand{\emph}{\texttt}
+\usepackage{url}
+\usepackage{color}
+%\usepackage{pdfpages}
+%\includepdf[pages=3-5]{document}
+\usepackage{setspace}
+
+
+\usepackage[top=1 cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+
+\setcounter{tocdepth}{3}
+\onehalfspacing
+%\fontfamily{pnc}\selectfont.
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+
+\makeatletter
+\newcommand{\thechapterwords}
+{ \ifcase \thechapter\or 1 \or 2 \or 3  \or 4 \or 5 \or Three\or Four \or  \or 6\or 7\or 8\fi}
+\def\thickhrulefill{\leavevmode \leaders \hrule height 1ex \hfill \kern \z@}
+\def\@makechapterhead#1{%
+  %\vspace*{50\p@}%
+  \vspace*{15\p@}%
+  {\parindent \z@ \centering \reset@font
+        \thickhrulefill\quad
+        \scshape \@chapapp{} \thechapterwords
+        \quad \thickhrulefill
+        \par\nobreak
+        \vspace*{15\p@}%
+        \interlinepenalty\@M
+        \hrule
+        \vspace*{15\p@}%
+        \Huge \bfseries #1\par\nobreak
+        \par
+        \vspace*{15\p@}%
+        \hrule
+    \vskip 60\p@
+    %\vskip 100\p@
+  }}
+  
+
+
+\addto\captionsenglish{\renewcommand{\contentsname}{\normalsize{\textbf{ TABLE OF CONTENTS}}}}
+\addto\captionsenglish{\renewcommand{\bibname}{\normalsize{\textbf{ REFERENCES}}}}
+%\addto\captionsfrench{\renewcommand{\bibname}{\normalsize{\textbf{RÉFÉRENCES}}}}
+%\addto\captionsenglis{\renewcommand{\contentsname}{\normalsize{\textbf{ TABLE OF CONTENTS}}}}
+%\addto\captionsenglish{\renewcommand{\listfigurename}{\normalsize{\textbf{LIST OF FIGURES}}}}
+%\addto\captionsenglish{\renewcommand{\listtablename}{\normalsize{\textbf{LIST OF TABLES}}}}
+%\addto\captionsenglish{\renewcommand{\bibname}{\normalsize{\textbf{REFERENCES}}}}
+
+
+
+
+\begin{document}
+\thispagestyle{empty}
+%IMD LOGO 
+\begin{center}
+ \begin{figure}[htbp]
+  \centering
+  %\includegraphics[width=18cm]{image1}
+  \includegraphics[scale=0.1]{imd.jpeg}
+  %\caption{}
+  \label{image1}
+  \end{figure}
+\end{center}
+
+
+
+
+\begin{center}
+	\Large \textbf{ METEOROLOGICAL SATELLITE : SENSING PRINCIPLES, DATA COLLECTION AND ANALYSIS} \vspace{ 1.5 \baselineskip} \normalsize \\	
+	
+	\Large Project Submitted by \vspace{1 \baselineskip} \normalsize \\
+	
+	\Large \textbf{ Mr. YOUNKAP NINA Duplex} \vspace{ 0.1\baselineskip} \normalsize \\
+	\Large Air Traffic Controller - MEng Degree in Computer Science \vspace{ 1.5 \baselineskip} \normalsize \\
+	
+	\Large Under the guidance of \vspace{ 1 \baselineskip} \normalsize\\
+	\Large \textbf{ Mr. TCHAMABO Urbain }\vspace{ 0.1\baselineskip} \normalsize \\
+	\Large Forecaster - MEng Degree in Meteorology \vspace{ 1.5 \baselineskip} \normalsize \\
+	
+	\Large March - 2022 \vspace{ 1.5 \baselineskip} \normalsize \\
+	
+	\Large Advance Training in Meteorological Instrumentation \& Information System Batch No.IX \vspace{ 1.5 \baselineskip} \normalsize \\
+	
+	\Large ICITC \vspace{ 0.1\baselineskip} \normalsize \\
+	
+	\Large INDIA METEOROLOGICAL DEPARTMENT \vspace{ 0.1\baselineskip} \normalsize \\
+	
+	\Large New Delhi \vspace{ 0.0\baselineskip} \normalsize \\
+
+	 \end{center}
+	
+	
+\newpage
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+
+
+\input{certificate.tex}
+\newpage
+
+\input{acknowledgement.tex}
+\newpage
+
+\tableofcontents
+%\addcontentsline{toc}{section}{\normalsize{\textbf{TABLE OF CONTENTS}}}
+%\addcontentsline{toc}{chapter}{\normalsize{\textbf{TABLE OF CONTENTS}}}
+%\addcontentsline{toc}{section}{\normalsize{\textbf{LIST OF FIGURES}}}
+%\addcontentsline{toc}{section}{\normalsize{\textbf{LIST OF TABLES}}}
+%\addcontentsline{toc}{section}{\normalsize{\textbf{REFERENCES}}}
+
+%\input{sigle.tex}
+%\newpage
+
+
+%\selectlanguage{francais}% on s'assure que la langue est bien le français
+
+%\input{resume.tex}
+
+
+
+\selectlanguage{english}% on change de langue pour le résumé en anglais
+
+
+%\input{abstract.tex}
+
+
+
+%\selectlanguage{francais}% on revient à la langue d'origine
+%\listoftables
+%\addcontentsline{toc}{section}{\normalsize{\textbf{LISTE DES TABLEAUX}}}
+
+%\listoffigures
+%\addcontentsline{toc}{section}{\normalsize{\textbf{LISTE DES FIGURES ET ILLUSTRATIONS}}}
+
+
+%\input{introduction1.tex}
+\input{introduction_v1.tex}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\newpage
+  
+\input{backgroundv1.tex}
+\newpage
+
+\input{goesv2.tex}
+\newpage
+
+
+\input{analysisv1.tex}
+\newpage
+
+
+\input{analysisv2.tex}
+\newpage
+
+
+\input{analysisv32.tex}
+%\newpage
+
+\input{conclusionv3.tex}
+\newpage
+
+
+\cite{tempfli2009principles}
+
+
+\bibliographystyle{plain}
+%\bibliographystyle{apacite}
+\bibliography{biblio_finale}
+%\bibliographystyle{plain}
+%\addcontentsline{toc}{section}{\normalsize{\textbf{REFERENCES}}}
+\end{document}
+ 
